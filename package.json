@@ -1,0 +1,49 @@
+{
+  "name": "next-smrt",
+  "version": "1.5.0",
+  "author": "Chris Sprance <chrissprance@gmail.com>",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "build-start": "next build && next start",
+    "type-check": "tsc",
+    "lint": "next lint",
+    "prettier": "prettier --write \"**/*.{ts,tsx}\" ",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.10.1",
+    "@emotion/react": "^11.10.0",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.3",
+    "immer": "^9.0.15",
+    "next": "latest",
+    "nookies": "^2.5.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-responsive": "^9.0.0-beta.10",
+    "styled-components": "^5.3.5",
+    "zustand": "^4.0.0"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "3.2.0",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
+    "@types/react-redux": "^7.1.24",
+    "@types/react-responsive": "^8.0.5",
+    "@types/styled-components": "^5.1.25",
+    "eslint": "^8.20.0",
+    "eslint-config-next": "12.2.3",
+    "jest": "^26.6.3",
+    "prettier": "latest",
+    "ts-jest": "^26.5.6",
+    "ts-loader": "^9.3.0",
+    "typescript": "latest"
+  }
+}
